@@ -10,7 +10,7 @@ module.exports = {
     process.env.ALLOW_SENDING_EMAILS === 'true',
   APP_NAME: process.env.APP_NAME || 'MicroRealEstate',
   DOMAIN_URL:
-    process.env.DOAMIN_URL || 'http://localhost:8083',
+    process.env.DOMAIN_URL || 'http://localhost:8083',
   PORT: process.env.PORT || 8082,
   GMAIL: {
     email: process.env.GMAIL_EMAIL || 'example@gmail.com',
